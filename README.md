@@ -6,6 +6,16 @@ Monometric.IO Apache HTTPD status plugin (https://monometric.io)
 This plugin will query apache httpd via mod_status. More metrics will be
 available if ExtendedStatus is enabled.
 
+## Installation
+
+```mm-plugins install monometricio/plugin-apache-basic```
+
+```mm-plugins enable monometricio/plugin-apache-basic```
+
+You should see the plugin when running ```mm-plugins list```.
+
+Remember to edit the configuration file ```/etc/mm-agent/plugins/monometricio-plugin-apache-basic.conf```.
+
 ## Configuration
 
 For the plugin to work, apache needs to have mod_status enabled:
