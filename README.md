@@ -8,7 +8,7 @@ available if ExtendedStatus is enabled.
 
 ## Installation
 
-```mm-plugins install monometricio/plugin-apache-basic```
+```mm-plugins download monometricio/plugin-apache-basic```
 
 ```mm-plugins enable monometricio/plugin-apache-basic```
 
@@ -53,3 +53,9 @@ apache.workers.sending_reply: 1
 apache.workers.waiting_for_connection: 7
 apache.workers.open_slot: 248
 ```
+
+## Testing configuration
+
+You can test-run the plugin and verify the output by running:
+
+```mm-plugins run monometricio/plugin-apache-basic```
